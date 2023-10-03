@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>yadg version 4.1.0 &mdash; yadg master documentation</title>
@@ -14,10 +14,11 @@
     <script src="_static/js/html5shiv.min.js"></script>
   <![endif]-->
   
-        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
-        <script src="_static/jquery.js"></script>
-        <script src="_static/underscore.js"></script>
-        <script src="_static/doctools.js"></script>
+        <script src="_static/jquery.js?v=5d32c60e"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="_static/documentation_options.js?v=30d551ce"></script>
+        <script src="_static/doctools.js?v=888ff710"></script>
+        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" /> 
@@ -28,15 +29,19 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search" >
-            <a href="index.html" class="icon icon-home"> yadg
-            <img src="_static/yadg.png" class="logo" alt="Logo"/>
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            yadg
+              <img src="_static/yadg.png" class="logo" alt="Logo"/>
           </a>
               <div class="version">
                 master
               </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
   </form>
@@ -62,6 +67,15 @@
 <li class="toctree-l1"><a class="reference internal" href="apidoc/yadg.parsers.xrdtrace.html"><strong>xrdtrace</strong>: X-ray diffractogram trace file parser</a></li>
 <li class="toctree-l1"><a class="reference internal" href="apidoc/yadg.parsers.masstrace.html"><strong>masstrace</strong>: Mass spectroscopy trace file parser</a></li>
 </ul>
+<p class="caption" role="heading"><span class="caption-text">yadg extractors</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="apidoc/yadg.extractors.agilentch.html"><strong>agilent-ch</strong>: Agilent ChemStation export <code class="docutils literal notranslate"><span class="pre">.CH</span></code></a></li>
+<li class="toctree-l1"><a class="reference internal" href="apidoc/yadg.extractors.agilentdx.html"><strong>agilent-dx</strong>: Agilent OpenLab raw data <code class="docutils literal notranslate"><span class="pre">.dx</span></code></a></li>
+<li class="toctree-l1"><a class="reference internal" href="apidoc/yadg.extractors.eclabmpr.html"><strong>eclab-mpr</strong>: BioLogic ECLab binary <code class="docutils literal notranslate"><span class="pre">.mpr</span></code></a></li>
+<li class="toctree-l1"><a class="reference internal" href="apidoc/yadg.extractors.eclabmpt.html"><strong>eclab-mpr</strong>: BioLogic ECLab export <code class="docutils literal notranslate"><span class="pre">.mpt</span></code></a></li>
+<li class="toctree-l1"><a class="reference internal" href="apidoc/yadg.extractors.panalyticalxrdml.html"><strong>panalytical-xrdml</strong>: PANalytical XRDML <code class="docutils literal notranslate"><span class="pre">.xrdml</span></code></a></li>
+<li class="toctree-l1"><a class="reference internal" href="apidoc/yadg.extractors.phispe.html"><strong>phi-spe</strong>: ULVAC-PHI Multipak <code class="docutils literal notranslate"><span class="pre">.spe</span></code></a></li>
+</ul>
 <p class="caption" role="heading"><span class="caption-text">yadg developer manual</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="devdocs.html">Developer documentation</a></li>
@@ -83,8 +97,8 @@
         <div class="rst-content">
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
-      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
-      <li><strong>yadg</strong> version 4.1.0</li>
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active"><strong>yadg</strong> version 4.1.0</li>
       <li class="wy-breadcrumbs-aside">
             <a href="_sources/version.4_1.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -95,7 +109,7 @@
            <div itemprop="articleBody">
              
   <section id="yadg-version-4-1-0">
-<h1><strong>yadg</strong> version 4.1.0<a class="headerlink" href="#yadg-version-4-1-0" title="Permalink to this headline"></a></h1>
+<h1><strong>yadg</strong> version 4.1.0<a class="headerlink" href="#yadg-version-4-1-0" title="Link to this heading"></a></h1>
 <a class="reference external image-reference" href="https://github.com/PeterKraus/yadg/tree/4.1.0"><img alt="https://img.shields.io/static/v1?label=yadg&amp;message=v4.1.0&amp;color=blue&amp;logo=github" src="https://img.shields.io/static/v1?label=yadg&amp;message=v4.1.0&amp;color=blue&amp;logo=github" /></a>
 <a class="reference external image-reference" href="https://pypi.org/project/yadg/4.1.0/"><img alt="https://img.shields.io/static/v1?label=yadg&amp;message=v4.1.0&amp;color=blue&amp;logo=pypi" src="https://img.shields.io/static/v1?label=yadg&amp;message=v4.1.0&amp;color=blue&amp;logo=pypi" /></a>
 <img alt="https://img.shields.io/static/v1?label=release%20date&amp;message=2022-05-13&amp;color=red&amp;logo=pypi" src="https://img.shields.io/static/v1?label=release%20date&amp;message=2022-05-13&amp;color=red&amp;logo=pypi" />
@@ -106,7 +120,7 @@
 <li><p>ability to archive raw data and reference the archive from within the <cite>datagram</cite>,
 by using <code class="docutils literal notranslate"><span class="pre">yadg</span> <span class="pre">preset</span> <span class="pre">--process</span> <span class="pre">--archive</span></code></p></li>
 <li><p>migrated <cite>dataschema</cite> validation from an in-house validation routine to a
-Pydantic-based model, see <a class="reference external" href="https://dgbowl.github.io/dgbowl-schemas/master/dgbowl_schemas.yadg.html#module-dgbowl_schemas.yadg" title="(in dgbowl-schemas vmaster)"><code class="xref py py-mod docutils literal notranslate"><span class="pre">dgbowl_schemas.yadg</span></code></a></p></li>
+Pydantic-based model, see <a class="reference external" href="https://dgbowl.github.io/dgbowl-schemas/master/apidoc/dgbowl_schemas.yadg.html#module-dgbowl_schemas.yadg" title="(in dgbowl-schemas vmaster)"><code class="xref py py-mod docutils literal notranslate"><span class="pre">dgbowl_schemas.yadg</span></code></a></p></li>
 <li><p>added the <a class="reference internal" href="apidoc/yadg.parsers.xpstrace.html#module-yadg.parsers.xpstrace" title="yadg.parsers.xpstrace"><code class="xref py py-mod docutils literal notranslate"><span class="pre">xpstrace</span></code></a> parser with support for Panalytical files</p></li>
 <li><p>added support for <code class="docutils literal notranslate"><span class="pre">tomato.json</span></code> filetypes to the <a class="reference internal" href="apidoc/yadg.parsers.electrochem.html#module-yadg.parsers.electrochem" title="yadg.parsers.electrochem"><code class="xref py py-mod docutils literal notranslate"><span class="pre">electrochem</span></code></a>
 and <a class="reference internal" href="apidoc/yadg.parsers.dummy.html#module-yadg.parsers.dummy" title="yadg.parsers.dummy"><code class="xref py py-mod docutils literal notranslate"><span class="pre">dummy</span></code></a> parsers</p></li>
@@ -139,6 +153,10 @@ properly, without producing a non-compliant json file.</p></li>
 </li>
 </ul>
 </div></blockquote>
+<p>This project has received funding from the European Union’s Horizon 2020 research
+and innovation programme under grant agreement No 957189. The project is part of
+BATTERY 2030+, the large-scale European research initiative for inventing the
+sustainable batteries of the future.</p>
 </section>
 
 
